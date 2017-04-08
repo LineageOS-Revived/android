@@ -52,7 +52,7 @@
 	<project name="LineageOS-UL/android_external_jemalloc_new" path="external/jemalloc_new" />
 
 	<remove-project name="LineageOS/android_bionic" />
-	<project name="LineageOS-UL/android_bionic" path="bionic" />
+	<project name="droid-legacy/android_bionic" path="bionic" />
 
 	<!-- Adblock -->
 	<remove-project name="LineageOS/android_build" />
