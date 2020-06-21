@@ -106,11 +106,10 @@
   <project name="LineageOS-Revived/android_vendor_cm" path="vendor/cm" />
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
 
-  <!-- AuroraStore prebuilt-->
-  <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" clone-depth="1" />
-
-  <!-- microG Build, prebuilt apks -->
+  <!-- FOSS Build, prebuilt apks -->
+  <project name="MSe1969/AuroraStore-prebuilt" path="prebuilts/Aurorastore" revision="master" clone-depth="1" />
   <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" revision="master" />
+  <project name="syphyr/dnscrypt_proxy_prebuilt" path="prebuilts/dnscrypt-proxy" revision="master" />
 
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
