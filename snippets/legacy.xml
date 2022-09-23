@@ -89,4 +89,7 @@
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 	<project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" revision="lineage-18.1" />
+
+	<!-- PDF -->
+	<project name="LeafOS-experimental/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="leaf-4.0"/>
 </manifest>
