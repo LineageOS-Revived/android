@@ -131,4 +131,7 @@
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project name="droid-legacy/android_system_sepolicy" path="system/sepolicy" />
+
+	<!-- PDF -->
+	<project name="LeafOS-experimental/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="leaf-4.0"/>
 </manifest>
