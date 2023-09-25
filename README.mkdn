@@ -11,6 +11,10 @@ To initialize your local repository using the LineageOS trees, use a command lik
 ```
 repo init -u https://github.com/LineageOS-Revived/android.git -b lineage-17.1 --git-lfs
 ```
+Or Initialize Shallow Clone
+```
+repo init --depth=1 -u https://github.com/LineageOS-Revived/android.git -b lineage-17.1 --git-lfs
+```
 Then to sync up:
 ```
 repo sync
