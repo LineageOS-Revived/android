@@ -71,7 +71,7 @@
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <project name="LineageOS-Revived/android_packages_services_Telephony" path="packages/services/Telephony" />
   <remove-project name="LineageOS/android_system_bt" />
-  <project name="lin14-mGoms/android_system_bt" path="system/bt" />
+  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
   <project name="lin14-mGoms/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
 
