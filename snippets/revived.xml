@@ -86,8 +86,6 @@
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" />
-  <remove-project name="LineageOS/android_hardware_libhardware" />
-  <project name="LineageOS-Revived/android_hardware_libhardware" path="hardware/libhardware" />
   <remove-project name="LineageOS/android_hardware_ril" />
   <project name="LineageOS-Revived/android_hardware_ril" path="hardware/ril" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
