@@ -6,7 +6,7 @@
   <remove-project name="LineageOS/android_art" />
   <project name="LineageOS-Revived/android_art" path="art" />
 
-  <project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_build" />
   <project name="LineageOS-Revived/android_build" path="build/make" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
