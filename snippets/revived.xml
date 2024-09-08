@@ -17,7 +17,7 @@
   <remove-project name="LineageOS/android_external_boringssl" />
   <project name="lin14-mGoms/android_external_boringssl" path="external/boringssl" />
   <remove-project name="platform/external/expat" />
-  <project name="lin14-mGoms/android_external_expat" path="external/expat" />
+  <project name="syphyr/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="LineageOS/android_external_flac" />
