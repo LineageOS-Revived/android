@@ -106,7 +106,7 @@
   <project path="prebuilts/Aurorastore" name="MSe1969/AuroraStore-prebuilt" revision="master" clone-depth="1" />
 
   <!-- microG Build, prebuilt apks -->
-  <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" revision="master" />
+  <project name="LineageOS-Revived/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" />
 
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
