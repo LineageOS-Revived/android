@@ -74,12 +74,8 @@
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="LineageOS-Revived/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
 
-  <remove-project name="LineageOS/android_hardware_interfaces" />
-  <project name="LineageOS-Revived/android_hardware_interfaces" path="hardware/interfaces" />
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <project name="LineageOS-Revived/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
-  <remove-project name="LineageOS/android_hardware_ril" />
-  <project name="LineageOS-Revived/android_hardware_ril" path="hardware/ril" />
 
   <remove-project name="LineageOS/android_libcore" />
   <project name="LineageOS-Revived/android_libcore" path="libcore" />
