@@ -46,6 +46,8 @@
   <project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" revision="main" />
   <remove-project name="LineageOS/android_external_cldr" />
   <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
+  <remove-project name="LineageOS/android_external_expat" />
+  <project name="LineageOS-Revived/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_freetype" />
   <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
   <remove-project name="LineageOS/android_external_icu" />
