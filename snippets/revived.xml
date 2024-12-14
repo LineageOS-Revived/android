@@ -37,7 +37,7 @@
   <remove-project name="LineageOS/android_external_libxml2" />
   <project name="lin14-mGoms/android_external_libxml2" path="external/libxml2" />
   <remove-project name="LineageOS/android_external_skia" />
-  <project name="lin14-mGoms/android_external_skia" path="external/skia" />
+  <project name="LineageOS-Revived/android_external_skia" path="external/skia" />
   <remove-project name="LineageOS/android_external_sonivox" />
   <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" />
   <remove-project name="LineageOS/android_external_tremolo" />
@@ -75,7 +75,7 @@
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <project name="LineageOS-Revived/android_packages_services_Telephony" path="packages/services/Telephony" />
   <remove-project name="LineageOS/android_system_bt" />
-  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
+  <project name="syphyr/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
   <project name="lin14-mGoms/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
 
