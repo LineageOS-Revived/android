@@ -81,7 +81,7 @@
 
   <!-- Upstreamed Repositories -->
   <remove-project name="LineageOS/android_external_ffmpeg" />
-  <project name="lin14-mGoms/android_external_ffmpeg" path="external/ffmpeg" revision="cm-14.1-microG" />
+  <project name="syphyr/android_external_ffmpeg" path="external/ffmpeg" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_external_iptables" />
   <project name="lin14-mGoms/android_external_iptables" path="external/iptables" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_external_sqlite" />
