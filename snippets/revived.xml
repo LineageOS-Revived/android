@@ -27,6 +27,8 @@
   <remove-project name="LineageOS/android_external_freetype" />
   <project name="syphyr/android_external_freetype-1" path="external/freetype" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_external_libavc" />
+  <remove-project name="platform/external/giflib" />
+  <project name="syphyr/android_external_giflib" path="external/giflib" />
   <project name="lin14-mGoms/android_external_libavc" path="external/libavc" />
   <remove-project name="LineageOS/android_external_libexif" />
   <project name="lin14-mGoms/android_external_libexif" path="external/libexif" />
