@@ -5,7 +5,7 @@
   <project name="LineageOS-Revived/android" path="android" />
 
   <remove-project name="LineageOS/android_build" />
-  <project path="build" name="LineageOS-Revived/android_build">
+  <project name="LineageOS-Revived/android_build" path="build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -13,19 +13,19 @@
   <remove-project name="LineageOS/android_bionic" />
   <project name="LineageOS-Revived/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_external_aac" />
-  <project name="lin14-mGoms/android_external_aac" path="external/aac" revision="lineage-17.1" />
+  <project name="syphyr/android_external_aac-1" path="external/aac" revision="lineage-17.1" />
   <remove-project name="LineageOS/android_external_boringssl" />
-  <project name="lin14-mGoms/android_external_boringssl" path="external/boringssl" />
+  <project name="syphyr/android_external_boringssl" path="external/boringssl" />
   <remove-project name="platform/external/expat" />
   <project name="syphyr/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="LineageOS/android_external_flac" />
-  <project name="lin14-mGoms/android_external_flac" path="external/flac" />
+  <project name="syphyr/android_external_flac" path="external/flac" />
   <remove-project name="platform/external/webp" />
-  <project name="LineageOS-Revived/android_external_webp" path="external/webp" />
+  <project name="syphyr/android_external_webp" path="external/webp" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_external_freetype" />
-  <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
+  <project name="syphyr/android_external_freetype-1" path="external/freetype" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_external_libavc" />
   <project name="lin14-mGoms/android_external_libavc" path="external/libavc" />
   <remove-project name="LineageOS/android_external_libexif" />
@@ -33,11 +33,11 @@
   <remove-project name="LineageOS/android_external_libnfc-nci" />
   <project name="lin14-mGoms/android_external_libnfc-nci" path="external/libnfc-nci" />
   <remove-project name="LineageOS/android_external_libvpx" />
-  <project name="lin14-mGoms/android_external_libvpx" path="external/libvpx" />
+  <project name="syphyr/android_external_libvpx-1" path="external/libvpx" />
   <remove-project name="LineageOS/android_external_libxml2" />
-  <project name="lin14-mGoms/android_external_libxml2" path="external/libxml2" />
+  <project name="syphyr/android_external_libxml2-1" path="external/libxml2" />
   <remove-project name="LineageOS/android_external_skia" />
-  <project name="LineageOS-Revived/android_external_skia" path="external/skia" />
+  <project name="lin14-mGoms/android_external_skia" path="external/skia" />
   <remove-project name="LineageOS/android_external_sonivox" />
   <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" />
   <remove-project name="LineageOS/android_external_tremolo" />
@@ -47,7 +47,9 @@
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_minikin" />
-  <project name="LineageOS-Revived/android_frameworks_minikin" path="frameworks/minikin" />
+  <project name="lin14-mGoms/android_frameworks_minikin" path="frameworks/minikin" />
+  <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
+  <project name="syphyr/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
   <remove-project name="LineageOS/android_libcore" />
   <project name="lin14-mGoms/android_libcore" path="libcore" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
@@ -77,21 +79,31 @@
   <remove-project name="LineageOS/android_system_bt" />
   <project name="syphyr/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
-  <project name="lin14-mGoms/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
+  <project name="syphyr/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
 
   <!-- Upstreamed Repositories -->
   <remove-project name="LineageOS/android_external_ffmpeg" />
-  <project name="syphyr/android_external_ffmpeg" path="external/ffmpeg" revision="cm-14.1-microG" />
+  <project name="syphyr/android_external_ffmpeg" path="external/ffmpeg" />
   <remove-project name="LineageOS/android_external_iptables" />
-  <project name="lin14-mGoms/android_external_iptables" path="external/iptables" revision="cm-14.1-microG" />
+  <project name="syphyr/android_external_iptables" path="external/iptables" />
+  <remove-project name="LineageOS/android_external_libhevc" />
+  <project name="syphyr/android_external_libhevc" path="external/libhevc" />
+  <remove-project name="LineageOS/android_external_p7zip" />
+  <project name="syphyr/android_external_p7zip" path="external/p7zip" revision="lineage-17.1" />
+  <remove-project name="LineageOS/android_external_ppp" />
+  <project name="syphyr/android_external_ppp" path="external/ppp" />
   <remove-project name="LineageOS/android_external_sqlite" />
-  <project name="LineageOS-Revived/android_external_sqlite" path="external/sqlite" />
+  <project name="syphyr/android_external_sqlite-1" path="external/sqlite" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" />
   <remove-project name="LineageOS/android_hardware_ril" />
   <project name="LineageOS-Revived/android_hardware_ril" path="hardware/ril" />
+  <remove-project name="LineageOS/android_packages_apps_AudioFX" />
+  <project name="syphyr/android_packages_apps_AudioFX" path="packages/apps/AudioFX" />
+  <remove-project name="LineageOS/android_packages_apps_DeskClock" />
+  <project name="syphyr/android_packages_apps_DeskClock-1" path="packages/apps/DeskClock" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
@@ -104,26 +116,26 @@
   <project name="LineageOS-Revived/android_external_v8" path="external/v8" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS-Revived/android_vendor_cm" path="vendor/cm" />
-  <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
 
-  <!-- FOSS Build, prebuilt apks -->
+  <!-- Prebuilts -->
+  <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
   <project name="MSe1969/AuroraStore-prebuilt" path="prebuilts/Aurorastore" revision="master" clone-depth="1" />
   <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" revision="master" />
   <project name="syphyr/dnscrypt_proxy_prebuilt" path="prebuilts/dnscrypt-proxy" revision="master" />
 
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/Jelly" name="lin14-mGoms/android_packages_apps_Jelly" />
+  <project name="lin14-mGoms/android_packages_apps_Jelly" path="packages/apps/Jelly" />
 
   <!-- Webview -->
   <remove-project name="LineageOS/android_external_chromium-webview" />
-  <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" revision="1c25993282a7d31bfac30d86c3e5f55df9dc0c06" >
+  <project name="LineageOS/android_external_chromium-webview_patches" path="external/chromium-webview/patches" revision="1c25993282a7d31bfac30d86c3e5f55df9dc0c06" >
     <linkfile src="Android.mk" dest="external/chromium-webview/Android.mk" />
     <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
-  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" clone-depth="1" revision="6d883cfe7f5f50470b29b21c26aa204205186a1a" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" clone-depth="1" revision="e92fc5c3f09f9cd2500ffbec01b164d72c7ba7e4" />
+  <project name="LineageOS/android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" clone-depth="1" revision="6d883cfe7f5f50470b29b21c26aa204205186a1a" />
+  <project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" clone-depth="1" revision="e92fc5c3f09f9cd2500ffbec01b164d72c7ba7e4" />
 
   <!-- Launcher -->
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
