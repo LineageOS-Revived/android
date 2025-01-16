@@ -112,6 +112,8 @@
   <project name="lin14-mGoms/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
+  <remove-project name="LineageOS/android_system_netd" />
+  <project name="syphyr/android_system_netd-1" path="system/netd" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" />
   <remove-project name="LineageOS/android_external_v8" />
