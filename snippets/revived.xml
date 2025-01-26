@@ -60,6 +60,8 @@
   <project name="LineageOS-Revived/android_external_libxml2" path="external/libxml2" />
   <remove-project name="platform/external/pdfium" />
   <project name="LineageOS-Revived/android_external_pdfium" path="external/pdfium" />
+  <remove-project name="LineageOS/android_external_skia" />
+  <project name="LineageOS-Revived/android_external_skia" path="external/skia" />
   <remove-project name="LineageOS/android_external_sonivox" />
   <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
   <remove-project name="platform/external/webp" />
