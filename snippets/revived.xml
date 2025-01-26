@@ -164,10 +164,9 @@
   <project name="LineageOS-Revived/android_tools_apksig" path="tools/apksig" />
 
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
-  <project name="LineageOS-Revived/android_packages_overlays_Lineage" path="packages/overlays/Lineage" />
+  <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
-  <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" revision="lineage-18.1" />
 
   <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
