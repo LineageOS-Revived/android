@@ -50,7 +50,7 @@
   <project name="LineageOS-Revived/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_freetype" />
   <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
-  <remove-project name="LineageOS/android_external_giflib" />
+  <remove-project name="platform/external/giflib" />
   <project name="LineageOS-Revived/android_external_giflib" path="external/giflib" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
