@@ -55,7 +55,7 @@
   <remove-project name="LineageOS/android_libcore" />
   <project name="lin14-mGoms/android_libcore" path="libcore" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
-  <project name="lin14-mGoms/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
+  <project name="syphyr/android_packages_apps_Bluetooth-1" path="packages/apps/Bluetooth" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <project name="lin14-mGoms/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
