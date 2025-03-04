@@ -40,7 +40,7 @@
 
 	<!-- Optimizations -->
 	<remove-project name="platform/art" />
-	<project name="droid-legacy/android_art-1" path="art" />
+	<project name="droid-legacy/android_art" path="art" />
 
 	<remove-project name="LineageOS/android_frameworks_base" />
 	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" />
