@@ -3,7 +3,7 @@
 	<remove-project name="LineageOS/android" />
 	<project name="droid-legacy/android" path="android" />
 	<remove-project name="LineageOS/android_build" />
-	<project name="droid-legacy/android_build" path="build/make" >
+	<project name="droid-legacy/android_build_make" path="build/make" >
 	  <copyfile src="core/root.mk" dest="Makefile" />
 	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
