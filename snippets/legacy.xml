@@ -56,7 +56,7 @@
 
 	<!-- Adblock -->
 	<remove-project name="LineageOS/android_build" />
-	<project path="build/make" name="droid-legacy/android_build" groups="pdk" >
+	<project path="build/make" name="droid-legacy/android_build_make" >
 	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
 	  <linkfile src="core" dest="build/core" />
