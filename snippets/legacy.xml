@@ -116,8 +116,8 @@
 	<project name="droid-legacy/android_packages_apps_Jelly" path="packages/apps/Jelly" />
 
 	<!-- Face Unlock -->
-	<project path="external/yifan" name="LMODroid/platform_external_yifan" revision="thirteen" />
-	<project path="packages/apps/FaceUnlock" name="LMODroid/platform_packages_apps_FaceUnlock" revision="thirteen" />
+	<project name="LMODroid/platform_external_yifan" path="external/yifan" revision="thirteen" />
+	<project name="LMODroid/platform_packages_apps_FaceUnlock" path="packages/apps/FaceUnlock" revision="thirteen" />
 
 	<!-- Power Hidl -->
 	<remove-project name="LineageOS/android_lineage-sdk" />
