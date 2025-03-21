@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="codeberg" fetch="https://codeberg.org" revision="cm-14.1" />
+
   <!-- manifest -->
   <remove-project name="LineageOS/android" />
   <project name="LineageOS-Revived/android" path="android" />
@@ -17,7 +19,7 @@
   <remove-project name="LineageOS/android_external_boringssl" />
   <project name="syphyr/android_external_boringssl" path="external/boringssl" />
   <remove-project name="LineageOS/android_external_dng_sdk" />
-  <project name="LineageOS-Revived/android_external_dng_sdk" path="external/dng_sdk" />
+  <project name="lin14-mGoms/android_external_dng_sdk" path="external/dng_sdk" remote="codeberg" />
   <remove-project name="platform/external/expat" />
   <project name="syphyr/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_icu" />
@@ -29,55 +31,55 @@
   <remove-project name="LineageOS/android_external_freetype" />
   <project name="syphyr/android_external_freetype-1" path="external/freetype" revision="lineage-18.1" />
   <remove-project name="LineageOS/android_external_libavc" />
+  <project name="lin14-mGoms/android_external_libavc" path="external/libavc" remote="codeberg" />
   <remove-project name="platform/external/giflib" />
   <project name="syphyr/android_external_giflib" path="external/giflib" />
-  <project name="lin14-mGoms/android_external_libavc" path="external/libavc" />
   <remove-project name="LineageOS/android_external_libexif" />
-  <project name="lin14-mGoms/android_external_libexif" path="external/libexif" />
+  <project name="lin14-mGoms/android_external_libexif" path="external/libexif" remote="codeberg" />
   <remove-project name="LineageOS/android_external_libnfc-nci" />
-  <project name="lin14-mGoms/android_external_libnfc-nci" path="external/libnfc-nci" />
+  <project name="lin14-mGoms/android_external_libnfc-nci" path="external/libnfc-nci" remote="codeberg" />
   <remove-project name="LineageOS/android_external_libvpx" />
   <project name="syphyr/android_external_libvpx-1" path="external/libvpx" />
   <remove-project name="LineageOS/android_external_libxml2" />
   <project name="syphyr/android_external_libxml2-1" path="external/libxml2" />
   <remove-project name="LineageOS/android_external_skia" />
-  <project name="lin14-mGoms/android_external_skia" path="external/skia" />
+  <project name="lin14-mGoms/android_external_skia" path="external/skia" remote="codeberg" />
   <remove-project name="LineageOS/android_external_sonivox" />
-  <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" />
+  <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" remote="codeberg" />
   <remove-project name="LineageOS/android_external_tremolo" />
-  <project name="lin14-mGoms/android_external_tremolo" path="external/tremolo" />
+  <project name="lin14-mGoms/android_external_tremolo" path="external/tremolo" remote="codeberg" />
   <remove-project name="LineageOS/android_external_zlib" />
-  <project name="lin14-mGoms/android_external_zlib" path="external/zlib" />
+  <project name="lin14-mGoms/android_external_zlib" path="external/zlib" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_minikin" />
-  <project name="lin14-mGoms/android_frameworks_minikin" path="frameworks/minikin" />
+  <project name="lin14-mGoms/android_frameworks_minikin" path="frameworks/minikin" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="syphyr/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
   <remove-project name="LineageOS/android_libcore" />
-  <project name="lin14-mGoms/android_libcore" path="libcore" />
+  <project name="lin14-mGoms/android_libcore" path="libcore" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="syphyr/android_packages_apps_Bluetooth-1" path="packages/apps/Bluetooth" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
-  <project name="lin14-mGoms/android_packages_apps_Contacts" path="packages/apps/Contacts" />
+  <project name="lin14-mGoms/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project name="lin14-mGoms/android_packages_apps_Dialer" path="packages/apps/Dialer" />
+  <project name="lin14-mGoms/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_KeyChain" />
-  <project name="lin14-mGoms/android_packages_apps_KeyChain" path="packages/apps/KeyChain" />
+  <project name="lin14-mGoms/android_packages_apps_KeyChain" path="packages/apps/KeyChain" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
-  <project name="lin14-mGoms/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+  <project name="lin14-mGoms/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
-  <project name="lin14-mGoms/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" />
+  <project name="lin14-mGoms/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_TvSettings" />
-  <project name="lin14-mGoms/android_packages_apps_TvSettings" path="packages/apps/TvSettings" />
+  <project name="lin14-mGoms/android_packages_apps_TvSettings" path="packages/apps/TvSettings" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
-  <project name="lin14-mGoms/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
+  <project name="lin14-mGoms/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
-  <project name="lin14-mGoms/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+  <project name="lin14-mGoms/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
-  <project name="lin14-mGoms/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
+  <project name="lin14-mGoms/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="codeberg"/>
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
-  <project name="lin14-mGoms/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+  <project name="lin14-mGoms/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <project name="LineageOS-Revived/android_packages_services_Telephony" path="packages/services/Telephony" />
   <remove-project name="LineageOS/android_system_bt" />
@@ -111,7 +113,7 @@
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <project name="lin14-mGoms/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" revision="cm-14.1-microG" />
+  <project name="lin14-mGoms/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="codeberg" revision="cm-14.1-microG" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_system_netd" />
@@ -125,13 +127,13 @@
 
   <!-- Prebuilts -->
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
-  <project name="MSe1969/AuroraStore-prebuilt" path="prebuilts/Aurorastore" revision="master" clone-depth="1" />
-  <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" clone-depth="1" revision="master" />
+  <project name="MSe1969/AuroraStore-prebuilt" path="prebuilts/Aurorastore" remote="codeberg" revision="master" clone-depth="1" />
+  <project name="MSe1969/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="codeberg" revision="master" clone-depth="1" />
   <project name="syphyr/dnscrypt_proxy_prebuilt" path="prebuilts/dnscrypt-proxy" revision="master" />
 
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
-  <project name="lin14-mGoms/android_packages_apps_Jelly" path="packages/apps/Jelly" />
+  <project name="lin14-mGoms/android_packages_apps_Jelly" path="packages/apps/Jelly" remote="codeberg" />
 
   <!-- Webview -->
   <remove-project name="LineageOS/android_external_chromium-webview" />
