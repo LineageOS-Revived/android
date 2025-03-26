@@ -86,6 +86,8 @@
   <project name="syphyr/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
   <project name="syphyr/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
+  <remove-project name="LineageOS/cm_platform_sdk" />
+  <project name="LineageOS-Revived/cm_platform_sdk" path="vendor/cmsdk" />
 
   <!-- Upstreamed Repositories -->
   <remove-project name="LineageOS/android_external_ffmpeg" />
