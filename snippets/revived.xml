@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="codeberg" fetch="https://codeberg.org" revision="lineage-18.1" />
+
   <remove-project name="LineageOS/android" />
   <project name="LineageOS-Revived/android" path="android" />
 
@@ -30,27 +32,27 @@
   <remove-project name="platform/external/cpu_features" />
   <project name="crdroidandroid/android_external_cpu_features" path="external/cpu_features" revision="11.0" />
   <remove-project name="LineageOS/android_external_expat" />
-  <project name="lin18-microG/android_external_expat" path="external/expat" />
+  <project name="lin18-microG/android_external_expat" path="external/expat" remote="codeberg" />
   <remove-project name="platform/external/giflib" />
-  <project name="lin18-microG/android_external_giflib" path="external/giflib" />
+  <project name="lin18-microG/android_external_giflib" path="external/giflib" remote="codeberg" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/skia" />
-  <project name="lin18-microG/android_external_skia" path="external/skia" />
+  <project name="lin18-microG/android_external_skia" path="external/skia" remote="codeberg" />
   <remove-project name="platform/external/sonivox" />
-  <project name="lin18-microG/android_external_sonivox" path="external/sonivox" />
+  <project name="lin18-microG/android_external_sonivox" path="external/sonivox" remote="codeberg" />
   <project name="crdroidandroid/android_external_asus_stitchimage" path="external/asus/stitchimage" revision="11.0" />
   <remove-project name="platform/external/vixl" />
   <project name="crdroidandroid/android_external_vixl" path="external/vixl" revision="11.0" />
 
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project name="lin18-microG/android_frameworks_av" path="frameworks/av" />
+  <project name="lin18-microG/android_frameworks_av" path="frameworks/av" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project name="lin18-microg/android_frameworks_native" path="frameworks/native" />
+  <project name="lin18-microg/android_frameworks_native" path="frameworks/native" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
-  <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" revision="lin-18.1-microG" />
+  <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="codeberg" revision="lin-18.1-microG" />
 
   <remove-project name="LineageOS/android_libcore" />
   <project name="LineageOS-Revived/android_libcore" path="libcore" />
@@ -59,7 +61,7 @@
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
 
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
-  <project name="lin18-microG/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
+  <project name="lin18-microG/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
@@ -78,27 +80,27 @@
   <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/packages/modules/NetworkStack" />
-  <project name="lin18-microG/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" revision="lin-18.1-microG" />
+  <project name="lin18-microG/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="codeberg" revision="lin-18.1-microG" />
 
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
-  <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+  <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="codeberg" />
 
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
-  <project name="lin18-microG/android_packages_services_Telecomm" path="packages/services/Telecomm" />
+  <project name="lin18-microG/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <project name="lin18-microG/android_packages_services_Telephony" path="packages/services/Telephony" />
+  <project name="lin18-microG/android_packages_services_Telephony" path="packages/services/Telephony" remote="codeberg" />
 
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <project name="lin18-microG/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" />
+  <project name="lin18-microG/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="codeberg" />
 
   <remove-project name="LineageOS/android_system_bt" />
-  <project name="lin18-microG/android_system_bt" path="system/bt" />
+  <project name="lin18-microG/android_system_bt" path="system/bt" remote="codeberg" />
   <remove-project name="LineageOS/android_system_ca-certificates" />
   <project name="LineageOS/android_system_ca-certificates" path="system/ca-certificates" revision="lineage-19.1" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="platform/system/libfmq" />
-  <project name="lin18-microG/android_system_libfmq" path="system/libfmq" />
+  <project name="lin18-microG/android_system_libfmq" path="system/libfmq" remote="codeberg" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" />
   <remove-project name="LineageOS/android_system_timezone" />
@@ -110,9 +112,9 @@
   <project name="crdroidandroid/android_tools_metalava" path="tools/metalava" revision="11.0" />
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
-  <project name="lin18-microG/android_vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" />
+  <project name="lin18-microG/android_vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="codeberg" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
-  <project name="lin18-microG/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" />
+  <project name="lin18-microG/android_vendor_qcom_opensource_system_bt" path="vendor/qcom/opensource/commonsys/system/bt" remote="codeberg" />
 
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
