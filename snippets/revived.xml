@@ -65,9 +65,13 @@
 
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="lin18-microG/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="codeberg" />
+  <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+  <project name="lin18-microG/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
+  <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
+  <project name="lin18-microG/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
