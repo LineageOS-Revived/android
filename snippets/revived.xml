@@ -36,6 +36,8 @@
 
   <remove-project name="LineageOS/android_external_expat" />
   <project name="lin18-microG/android_external_expat" path="external/expat" remote="codeberg" />
+  <remove-project name="LineageOS/android_external_freetype" />
+  <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
   <remove-project name="platform/external/giflib" />
   <project name="lin18-microG/android_external_giflib" path="external/giflib" remote="codeberg" />
   <remove-project name="LineageOS/android_external_icu" />
