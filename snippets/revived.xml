@@ -105,6 +105,8 @@
 
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <project name="lin18-microG/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="codeberg" />
+  <remove-project name="LineageOS/android_prebuilts_extract-tools" />
+  <project name="LineageOS/android_prebuilts_extract-tools" path="prebuilts/extract-tools" clone-depth="1" revision="lineage-22.2" />
 
   <remove-project name="LineageOS/android_system_bt" />
   <project name="lin18-microG/android_system_bt" path="system/bt" remote="codeberg" />
@@ -123,6 +125,8 @@
 
   <remove-project name="LineageOS/android_tools_metalava" />
   <project name="crdroidandroid/android_tools_metalava" path="tools/metalava" revision="11.0" />
+  <remove-project name="LineageOS/android_tools_extract-utils" />
+  <project name="LineageOS/android_tools_extract-utils" path="tools/extract-utils" revision="lineage-22.2" />
 
   <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
   <project name="lin18-microG/android_vendor_qcom_opensource_packages_apps_Bluetooth" path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" remote="codeberg" />
