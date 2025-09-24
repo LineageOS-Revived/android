@@ -99,6 +99,8 @@
   <remove-project name="platform/packages/modules/NetworkStack" />
   <project name="lin18-microG/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="codeberg" revision="lin-18.1-microG" />
 
+  <project name="MSe1969/android_packages_overlays_CaptivePortal204" path="packages/overlays/CaptivePortal204" remote="codeberg" revision="master" />
+
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <project name="lin18-microG/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
