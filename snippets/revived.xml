@@ -59,7 +59,7 @@
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="codeberg" revision="lin-18.1-microG" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
-  <project name="lin18-microG/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="codeberg" revision="lineage-18.1" />
+  <project name="lin18-microG/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="codeberg" />
 
   <remove-project name="LineageOS/android_libcore" />
   <project name="LineageOS-Revived/android_libcore" path="libcore" />
@@ -95,7 +95,7 @@
   <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
   <remove-project name="platform/packages/modules/CellBroadcastService" />
-  <project name="lin18-microG/android_packages_modules_CellBroadcastService" path="packages/modules/CellBroadcastService" remote="codeberg" revision="lineage-18.1" />
+  <project name="lin18-microG/android_packages_modules_CellBroadcastService" path="packages/modules/CellBroadcastService" remote="codeberg" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <project name="lin18-microG/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="codeberg" revision="lin-18.1-microG" />
 
