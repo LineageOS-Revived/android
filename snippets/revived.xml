@@ -12,6 +12,8 @@
   </project>
 
   <!-- Security Patches -->
+  <remove-project name="LineageOS/android_art" />
+  <project name="LineageOS-Revived/android_art" path="art" />
   <remove-project name="LineageOS/android_bionic" />
   <project name="LineageOS-Revived/android_bionic" path="bionic" />
   <remove-project name="LineageOS/android_external_aac" />
