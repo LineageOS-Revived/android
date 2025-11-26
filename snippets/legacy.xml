@@ -91,5 +91,5 @@
 	<project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" revision="lineage-18.1" />
 
 	<!-- PDF -->
-	<project name="LeafOS-experimental/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="leaf-4.0"/>
+	<project name="droid-legacy/android_packages_apps_MuPDF" path="packages/apps/MuPDF" />
 </manifest>
