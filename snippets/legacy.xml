@@ -92,4 +92,44 @@
 
 	<!-- PDF -->
 	<project name="droid-legacy/android_packages_apps_MuPDF" path="packages/apps/MuPDF" />
+
+	<!-- ASB -->
+	<remove-project name="LineageOS/android_frameworks_av" />
+	<project name="droid-legacy/android_frameworks_av" path="frameworks/av" />
+
+	<remove-project name="LineageOS/android_frameworks_opt_telephony" />
+	<project name="droid-legacy/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
+
+	<remove-project name="LineageOS/android_packages_apps_Contacts" />
+	<project name="droid-legacy/android_packages_apps_Contacts" path="packages/apps/Contacts" />
+
+	<remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+	<project name="droid-legacy/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" />
+
+	<remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
+	<project name="droid-legacy/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
+
+	<remove-project name="LineageOS/android_packages_apps_Nfc" />
+	<project name="droid-legacy/android_packages_apps_Nfc" path="packages/apps/Nfc" />
+
+	<remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+	<project name="droid-legacy/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" />
+
+	<remove-project name="LineageOS/android_packages_modules_CellBroadcastService" />
+	<project name="droid-legacy/android_packages_modules_CellBroadcastService" path="packages/modules/CellBroadcastService" />
+
+	<remove-project name="LineageOS/android_packages_modules_IntentResolver" />
+	<project name="droid-legacy/android_packages_modules_IntentResolver" path="packages/modules/IntentResolver" />
+
+	<remove-project name="LineageOS/android_packages_modules_Permission" />
+	<project name="droid-legacy/android_packages_modules_Permission" path="packages/modules/Permission" />
+
+	<remove-project name="LineageOS/android_packages_modules_Wifi" />
+	<project name="droid-legacy/android_packages_modules_Wifi" path="packages/modules/Wifi" />
+
+	<remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+	<project name="droid-legacy/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
+
+	<remove-project name="LineageOS/android_packages_services_Telephony" />
+	<project name="droid-legacy/android_packages_services_Telephony" path="packages/services/Telephony" />
 </manifest>
