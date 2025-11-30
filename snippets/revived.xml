@@ -78,6 +78,7 @@
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
   <project name="lin18-microG/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" remote="codeberg" />
+  <project name="droid-legacy/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="lineage-20.0" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project name="lin18-microG/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
