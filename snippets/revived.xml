@@ -42,8 +42,12 @@
   <project name="lin18-microG/android_external_giflib" path="external/giflib" remote="codeberg" />
   <remove-project name="LineageOS/android_external_icu" />
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project name="lin18-microG/android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="codeberg" />
   <remove-project name="platform/external/skia" />
   <project name="lin18-microG/android_external_skia" path="external/skia" remote="codeberg" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="lin18-microG/android_external_sqlite" path="external/sqlite" remote="codeberg" />
   <remove-project name="platform/external/sonivox" />
   <project name="lin18-microG/android_external_sonivox" path="external/sonivox" remote="codeberg" />
   <project name="crdroidandroid/android_external_asus_stitchimage" path="external/asus/stitchimage" revision="11.0" />
@@ -69,6 +73,8 @@
 
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="lin18-microG/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="codeberg" />
+  <remove-project name="LineageOS/android_packages_apps_CertInstaller" />
+  <project name="lin18-microG/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <project name="lin18-microG/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
@@ -107,6 +113,8 @@
   <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
   <project name="lin18-microG/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="codeberg" />
 
+  <remove-project name="LineageOS/android_packages_services_Mms" />
+  <project name="lin18-microG/android_packages_services_Mms" path="packages/services/Mms" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="lin18-microG/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
