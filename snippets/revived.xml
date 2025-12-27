@@ -56,6 +56,8 @@
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_minikin" />
   <project name="lin14-mGoms/android_frameworks_minikin" path="frameworks/minikin" remote="codeberg" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project name="lin14-mGoms/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="syphyr/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
   <remove-project name="LineageOS/android_libcore" />
@@ -80,6 +82,8 @@
   <project name="lin14-mGoms/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project name="lin14-mGoms/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="codeberg"/>
+  <remove-project name="LineageOS/android_packages_services_Mms" />
+  <project name="lin14-mGoms/android_packages_services_Mms" path="packages/services/Mms" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="lin14-mGoms/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
