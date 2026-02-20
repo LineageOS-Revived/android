@@ -144,6 +144,8 @@
 
   <remove-project name="LineageOS/android_packages_services_BuiltInPrintService" />
   <project name="LineageOS-Revived/android_packages_services_BuiltInPrintService" path="packages/services/BuiltInPrintService" />
+  <remove-project name="LineageOS/android_packages_services_Mms" />
+  <project name="LineageOS-Revived/android_packages_services_Mms" path="packages/services/Mms" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="LineageOS-Revived/android_packages_services_Telecomm" path="packages/services/Telecomm" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
