@@ -20,7 +20,7 @@
   <project name="syphyr/android_external_boringssl" path="external/boringssl" />
   <remove-project name="LineageOS/android_external_dng_sdk" />
   <project name="lin14-mGoms/android_external_dng_sdk" path="external/dng_sdk" remote="codeberg" />
-  <remove-project name="platform/external/expat" />
+  <remove-project name="LineageOS/android_external_expat" />
   <project name="syphyr/android_external_expat" path="external/expat" />
   <remove-project name="LineageOS/android_external_flac" />
   <project name="syphyr/android_external_flac" path="external/flac" />
