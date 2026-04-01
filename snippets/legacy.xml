@@ -92,8 +92,4 @@
 
 	<!-- PDF -->
 	<project name="droid-legacy/android_packages_apps_MuPDF" path="packages/apps/MuPDF" />
-
-	<!-- ASB -->
-	<remove-project name="LineageOS/android_packages_modules_IntentResolver" />
-	<project name="lin20-microg/android_packages_modules_IntentResolver" path="packages/modules/IntentResolver" />
 </manifest>
