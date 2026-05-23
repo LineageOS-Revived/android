@@ -75,7 +75,7 @@
 
 	<!-- Updated Apps -->
 	<remove-project name="LineageOS/android_packages_apps_Contacts" />
-	<project name="crdroidandroid/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="12.1" />
+	<project name="LineageOS-Revived/android_packages_apps_Contacts" path="packages/apps/Contacts" />
 
 	<remove-project name="LineageOS/android_packages_apps_Dialer" />
 	<project name="crdroidandroid/android_packages_apps_Dialer" path="packages/apps/Dialer" revision="12.1" />
