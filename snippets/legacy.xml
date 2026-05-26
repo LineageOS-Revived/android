@@ -127,5 +127,5 @@
 	<project name="LineageOS-Revived/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
 
 	<!-- PDF -->
-	<project name="LineageOS-Revived/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="lineage-20.0" />
+	<project name="droid-legacy/android_packages_apps_MuPDF" path="packages/apps/MuPDF" revision="lineage-20.0" />
 </manifest>
