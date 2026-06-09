@@ -58,6 +58,8 @@
   <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/libcups" />
   <project name="LineageOS-Revived/android_external_libcups" path="external/libcups" />
+  <remove-project name="platform/external/libpng" />
+  <project name="LineageOS-Revived/android_external_libpng" path="external/libpng" />
   <remove-project name="platform/external/libvpx" />
   <project name="LineageOS-Revived/android_external_libvpx" path="external/libvpx" />
   <remove-project name="platform/external/libxml2" />
@@ -98,6 +100,8 @@
   <project name="LineageOS-Revived/android_packages_apps_Camera2" path="packages/apps/Camera2" />
   <remove-project name="LineageOS/android_packages_apps_Car_Settings" />
   <project name="LineageOS-Revived/android_packages_apps_Car_Settings" path="packages/apps/Car/Settings" />
+  <remove-project name="LineageOS/android_packages_apps_CertInstaller" />
+  <project name="LineageOS-Revived/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <project name="LineageOS-Revived/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
