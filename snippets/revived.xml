@@ -122,6 +122,7 @@
   <project name="LineageOS-Revived/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <project name="LineageOS-Revived/android_packages_apps_Messaging" path="packages/apps/Messaging" />
+  <project name="LineageOS-Revived/android_packages_apps_MuPDF" path="packages/apps/MuPDF" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <project name="LineageOS-Revived/android_packages_apps_Nfc" path="packages/apps/Nfc" />
   <remove-project name="LineageOS/android_packages_apps_Seedvault" />
