@@ -94,4 +94,13 @@
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
+
+  <!-- Infra -->
+  <remove-project name="LineageOS/hudson" />
+  <project name="LineageOS-Revived/hudson" path="lineage/hudson" revision="main" />
+  <remove-project name="LineageOS/mirror" />
+  <project name="LineageOS-Revived/mirror" path="lineage/mirror" revision="main" />
+  <remove-project name="LineageOS/lineage_wiki" />
+  <project name="LineageOS-Revived/lineage_wiki" path="lineage/wiki" revision="main" />
+  <project name="LineageOS-Revived/revived_scripts" path="lineage/revived_scripts" revision="main" />
 </manifest>
