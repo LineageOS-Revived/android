@@ -3,16 +3,16 @@
   <remote name="codeberg" fetch="https://codeberg.org" revision="lineage-18.1" />
 
   <remove-project name="LineageOS/android" />
-  <project name="LineageOS-Revived/android" path="android" />
+  <project name="LineageOS-Revived/android" path="android" groups="lineage" />
 
   <remove-project name="LineageOS/android_art" />
-  <project name="LineageOS-Revived/android_art" path="art" />
+  <project name="LineageOS-Revived/android_art" path="art" groups="lineage" />
 
   <remove-project name="LineageOS/android_bootable_recovery" />
-  <project name="LineageOS-Revived/android_bootable_recovery" path="bootable/recovery" />
+  <project name="LineageOS-Revived/android_bootable_recovery" path="bootable/recovery" groups="lineage" />
 
   <remove-project name="LineageOS/android_build" />
-  <project name="LineageOS-Revived/android_build" path="build/make" >
+  <project name="LineageOS-Revived/android_build" path="build/make" groups="lineage" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -22,13 +22,13 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="LineageOS/android_build_soong" />
-  <project name="LineageOS-Revived/android_build_soong" path="build/soong" >
+  <project name="LineageOS-Revived/android_build_soong" path="build/soong" groups="lineage" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <remove-project name="LineageOS/android_external_cldr" />
-  <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
+  <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" groups="lineage" />
   <remove-project name="platform/external/cpu_features" />
   <project name="crdroidandroid/android_external_cpu_features" path="external/cpu_features" revision="11.0" />
 
@@ -41,33 +41,33 @@
   <project name="crdroidandroid/android_external_vixl" path="external/vixl" revision="11.0" />
 
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
+  <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" groups="lineage" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="codeberg" revision="lin-18.1-microG" />
 
   <remove-project name="LineageOS/android_libcore" />
-  <project name="LineageOS-Revived/android_libcore" path="libcore" />
+  <project name="LineageOS-Revived/android_libcore" path="libcore" groups="lineage" />
 
   <remove-project name="LineageOS/android_lineage-sdk" />
-  <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
+  <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" groups="lineage" />
 
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
-  <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
+  <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" />
   <project name="LineageOS-Revived/android_packages_apps_MuPDF" path="packages/apps/MuPDF" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
+  <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" groups="lineage" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <project name="LineageOS-Revived/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" />
+  <project name="LineageOS-Revived/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" groups="lineage" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
   <project name="crdroidandroid/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" revision="11.0" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+  <project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" groups="lineage" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
-  <project name="LineageOS-Revived/android_packages_apps_Updater" path="packages/apps/Updater" />
+  <project name="LineageOS-Revived/android_packages_apps_Updater" path="packages/apps/Updater" groups="lineage" />
 
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-  <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
+  <project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" groups="lineage" />
 
   <remove-project name="platform/packages/modules/NetworkStack" />
   <project name="lin18-microG/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="codeberg" revision="lin-18.1-microG" />
@@ -77,13 +77,13 @@
   <remove-project name="LineageOS/android_system_ca-certificates" />
   <project name="LineageOS/android_system_ca-certificates" path="system/ca-certificates" revision="lineage-19.1" />
   <remove-project name="LineageOS/android_system_core" />
-  <project name="LineageOS-Revived/android_system_core" path="system/core" />
+  <project name="LineageOS-Revived/android_system_core" path="system/core" groups="lineage" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" />
+  <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" groups="lineage" />
   <remove-project name="LineageOS/android_system_timezone" />
-  <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
+  <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" groups="lineage" />
   <remove-project name="LineageOS/android_system_vold" />
-  <project name="LineageOS-Revived/android_system_vold" path="system/vold" />
+  <project name="LineageOS-Revived/android_system_vold" path="system/vold" groups="lineage" />
 
   <remove-project name="LineageOS/android_tools_metalava" />
   <project name="crdroidandroid/android_tools_metalava" path="tools/metalava" revision="11.0" />
@@ -92,7 +92,7 @@
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
   <project name="LineageOS-Revived/android_vendor_extra" path="vendor/extra" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
+  <project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" groups="lineage" />
   <project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" />
 
   <!-- Infra -->
@@ -101,6 +101,6 @@
   <remove-project name="LineageOS/mirror" />
   <project name="LineageOS-Revived/mirror" path="lineage/mirror" revision="main" />
   <remove-project name="LineageOS/lineage_wiki" />
-  <project name="LineageOS-Revived/lineage_wiki" path="lineage/wiki" revision="main" />
+  <project name="LineageOS-Revived/lineage_wiki" path="lineage/wiki" revision="main" groups="lineage" />
   <project name="LineageOS-Revived/revived_scripts" path="lineage/revived_scripts" revision="main" />
 </manifest>
