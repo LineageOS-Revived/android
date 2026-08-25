@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remove-project name="LineageOS/android" />
-	<project name="LineageOS-Revived/android" path="android" />
+	<project name="LineageOS-Revived/android" path="android" groups="lineage" />
 
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_system_netd" />
@@ -11,10 +11,10 @@
 	<project name="LineageOS-UL/android_system_bpf" path="system/bpf" />
 
 	<remove-project name="LineageOS/android_packages_modules_adb" />
-	<project name="LineageOS-Revived/android_packages_modules_adb" path="packages/modules/adb" />
+	<project name="LineageOS-Revived/android_packages_modules_adb" path="packages/modules/adb" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="LineageOS-Revived/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
+	<project name="LineageOS-Revived/android_packages_modules_Connectivity" path="packages/modules/Connectivity" groups="lineage" />
 
 	<remove-project name="platform/packages/modules/NetworkStack" />
 	<project name="LineageOS-UL/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" />
@@ -23,40 +23,40 @@
 	<project name="LineageOS-UL/android_frameworks_libs_net" path="frameworks/libs/net" />
 
 	<remove-project name="LineageOS/android_kernel_configs" />
-	<project name="LineageOS-Revived/android_kernel_configs" path="kernel/configs" />
+	<project name="LineageOS-Revived/android_kernel_configs" path="kernel/configs" groups="lineage" />
 
 	<remove-project name="LineageOS/android_hardware_interfaces" />
-	<project name="LineageOS-Revived/android_hardware_interfaces" path="hardware/interfaces" />
+	<project name="LineageOS-Revived/android_hardware_interfaces" path="hardware/interfaces" groups="lineage" />
 
 	<remove-project name="LineageOS/android_hardware_lineage_interfaces" />
-	<project name="LineageOS-Revived/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
+	<project name="LineageOS-Revived/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" groups="lineage" />
 
 	<!-- DTB Tool -->
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
 	<!-- cgroup Patches -->
 	<remove-project name="LineageOS/android_system_core" /> 
-	<project name="LineageOS-Revived/android_system_core" path="system/core" />
+	<project name="LineageOS-Revived/android_system_core" path="system/core" groups="lineage" />
 
 	<!-- Optimizations -->
 	<remove-project name="platform/art" />
 	<project name="LineageOS-Revived/android_art" path="art" />
 
 	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" />
+	<project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" groups="lineage" />
 
 	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" />
+	<project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" groups="lineage" />
 
 	<remove-project name="platform/external/jemalloc_new" />
 	<project name="LineageOS-UL/android_external_jemalloc_new" path="external/jemalloc_new" />
 
 	<remove-project name="LineageOS/android_bionic" />
-	<project name="LineageOS-Revived/android_bionic" path="bionic" />
+	<project name="LineageOS-Revived/android_bionic" path="bionic" groups="lineage" />
 
 	<!-- Adblock -->
 	<remove-project name="LineageOS/android_build" />
-	<project name="LineageOS-Revived/android_build" path="build/make" >
+	<project name="LineageOS-Revived/android_build" path="build/make" groups="lineage" >
 	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
 	  <linkfile src="core" dest="build/core" />
@@ -66,28 +66,28 @@
 	</project>
 
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
-	<project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
+	<project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" groups="lineage" />
 
 	<remove-project name="LineageOS/android_device_lineage_sepolicy" />
-	<project name="LineageOS-Revived/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
+	<project name="LineageOS-Revived/android_device_lineage_sepolicy" path="device/lineage/sepolicy" groups="lineage" />
 
 	<!-- Keyboard -->
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-	<project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
+	<project name="LineageOS-Revived/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" groups="lineage" />
 
 	<!-- Launcher -->
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-	<project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
+	<project name="LineageOS-Revived/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" groups="lineage" />
 
 	<remove-project name="LineageOS/android_lineage-sdk" />
-	<project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
+	<project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" groups="lineage" />
 
 	<!-- Gallery -->
 	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
 	<project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
+	<project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" groups="lineage" />
 	<project name="LineageOS-Revived/android_vendor_prebuilts" path="vendor/prebuilts" revision="lineage-18.1" />
 
 	<!-- PDF -->
@@ -99,6 +99,6 @@
 	<remove-project name="LineageOS/mirror" />
 	<project name="LineageOS-Revived/mirror" path="lineage/mirror" revision="main" />
 	<remove-project name="LineageOS/lineage_wiki" />
-	<project name="LineageOS-Revived/lineage_wiki" path="lineage/wiki" revision="main" />
+	<project name="LineageOS-Revived/lineage_wiki" path="lineage/wiki" revision="main" groups="lineage" />
 	<project name="LineageOS-Revived/revived_scripts" path="lineage/revived_scripts" revision="main" />
 </manifest>
