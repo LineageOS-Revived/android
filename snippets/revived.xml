@@ -27,15 +27,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <remove-project name="LineageOS/android_external_cldr" />
-  <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" groups="lineage" />
   <remove-project name="platform/external/cpu_features" />
   <project name="crdroidandroid/android_external_cpu_features" path="external/cpu_features" revision="11.0" />
 
-  <remove-project name="LineageOS/android_external_expat" />
-  <project name="lin18-microG/android_external_expat" path="external/expat" remote="codeberg" />
-  <remove-project name="LineageOS/android_external_icu" />
-  <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <project name="crdroidandroid/android_external_asus_stitchimage" path="external/asus/stitchimage" revision="11.0" />
   <remove-project name="platform/external/vixl" />
   <project name="crdroidandroid/android_external_vixl" path="external/vixl" revision="11.0" />
@@ -44,9 +38,6 @@
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" groups="lineage" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="codeberg" revision="lin-18.1-microG" />
-
-  <remove-project name="LineageOS/android_libcore" />
-  <project name="LineageOS-Revived/android_libcore" path="libcore" groups="lineage" />
 
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" groups="lineage" />
@@ -80,8 +71,6 @@
   <project name="LineageOS-Revived/android_system_core" path="system/core" groups="lineage" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" groups="lineage" />
-  <remove-project name="LineageOS/android_system_timezone" />
-  <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" groups="lineage" />
   <remove-project name="LineageOS/android_system_vold" />
   <project name="LineageOS-Revived/android_system_vold" path="system/vold" groups="lineage" />
 
