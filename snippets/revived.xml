@@ -72,8 +72,6 @@
   <project name="LineageOS-Revived/android_packages_apps_Jelly" path="packages/apps/Jelly" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project name="LineageOS-Revived/android_packages_apps_LineageParts" path="packages/apps/LineageParts" />
-  <remove-project name="LineageOS/android_packages_apps_ManagedProvisioning" />
-  <project name="LineageOS-Revived/android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
   <remove-project name="LineageOS/android_packages_apps_Messaging" />
   <project name="LineageOS-Revived/android_packages_apps_Messaging" path="packages/apps/Messaging" />
   <project name="LineageOS-Revived/android_packages_apps_MuPDF" path="packages/apps/MuPDF" />
