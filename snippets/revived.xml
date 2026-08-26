@@ -40,8 +40,6 @@
   <project name="LineageOS-Revived/android_external_giflib" path="external/giflib" />
   <remove-project name="platform/external/libpng" />
   <project name="LineageOS-Revived/android_external_libpng" path="external/libpng" />
-  <remove-project name="platform/external/pdfium" />
-  <project name="LineageOS-Revived/android_external_pdfium" path="external/pdfium" />
   <remove-project name="LineageOS/android_external_skia" />
   <project name="LineageOS-Revived/android_external_skia" path="external/skia" />
   <remove-project name="LineageOS/android_external_sonivox" />
