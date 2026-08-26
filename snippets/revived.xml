@@ -34,8 +34,6 @@
   <project name="LineageOS-Revived/android_external_aac" path="external/aac" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" revision="10.0" />
-  <remove-project name="platform/external/dng_sdk" />
-  <project name="LineageOS-Revived/android_external_dng_sdk" path="external/dng_sdk" />
   <remove-project name="platform/external/libpng" />
   <project name="LineageOS-Revived/android_external_libpng" path="external/libpng" />
   <remove-project name="LineageOS/android_external_skia" />
@@ -98,8 +96,6 @@
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project name="LineageOS-Revived/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" />
 
-  <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
-  <project name="LineageOS-Revived/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" />
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project name="LineageOS-Revived/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
 
