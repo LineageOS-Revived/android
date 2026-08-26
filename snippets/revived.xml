@@ -36,8 +36,6 @@
   <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" revision="10.0" />
   <remove-project name="platform/external/dng_sdk" />
   <project name="LineageOS-Revived/android_external_dng_sdk" path="external/dng_sdk" />
-  <remove-project name="LineageOS/android_external_freetype" />
-  <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
   <remove-project name="platform/external/giflib" />
   <project name="LineageOS-Revived/android_external_giflib" path="external/giflib" />
   <remove-project name="platform/external/libcups" />
@@ -154,9 +152,6 @@
   <project name="LineageOS-Revived/android_system_netd" path="system/netd" />
   <remove-project name="LineageOS/android_system_nfc" />
   <project name="LineageOS-Revived/android_system_nfc" path="system/nfc" />
-
-  <remove-project name="platform/tools/apksig" />
-  <project name="LineageOS-Revived/android_tools_apksig" path="tools/apksig" />
 
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
