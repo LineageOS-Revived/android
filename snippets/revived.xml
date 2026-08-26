@@ -52,8 +52,6 @@
   <project name="LineageOS-Revived/android_external_skia" path="external/skia" />
   <remove-project name="LineageOS/android_external_sonivox" />
   <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
-  <remove-project name="platform/external/webp" />
-  <project name="LineageOS-Revived/android_external_webp" path="external/webp" />
 
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
