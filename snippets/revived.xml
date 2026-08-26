@@ -36,8 +36,6 @@
   <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" revision="10.0" />
   <remove-project name="platform/external/libpng" />
   <project name="LineageOS-Revived/android_external_libpng" path="external/libpng" />
-  <remove-project name="LineageOS/android_external_skia" />
-  <project name="LineageOS-Revived/android_external_skia" path="external/skia" />
 
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
