@@ -61,7 +61,7 @@
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
   <project name="lin14-mGoms/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <project name="LineageOS-Revived/android_packages_services_Telephony" path="packages/services/Telephony" />
+  <project name="lin14-mGoms/android_packages_services_Telephony" path="packages/services/Telephony" remote="codeberg" />
   <remove-project name="LineageOS/android_system_bt" />
   <project name="syphyr/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
