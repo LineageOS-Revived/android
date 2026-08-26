@@ -42,8 +42,6 @@
   <project name="LineageOS-Revived/android_external_libcups" path="external/libcups" />
   <remove-project name="platform/external/libpng" />
   <project name="LineageOS-Revived/android_external_libpng" path="external/libpng" />
-  <remove-project name="platform/external/libxml2" />
-  <project name="LineageOS-Revived/android_external_libxml2" path="external/libxml2" />
   <remove-project name="platform/external/pdfium" />
   <project name="LineageOS-Revived/android_external_pdfium" path="external/pdfium" />
   <remove-project name="LineageOS/android_external_skia" />
