@@ -66,8 +66,6 @@
   <project name="LineageOS-Revived/android_external_sonivox" path="external/sonivox" />
   <remove-project name="platform/external/webp" />
   <project name="LineageOS-Revived/android_external_webp" path="external/webp" />
-  <remove-project name="platform/external/zlib" />
-  <project name="LineageOS-Revived/android_external_zlib" path="external/zlib" />
 
   <remove-project name="LineageOS/android_frameworks_av" />
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
