@@ -30,8 +30,6 @@
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <project name="LineageOS-Revived/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
 
-  <remove-project name="LineageOS/android_external_aac" />
-  <project name="LineageOS-Revived/android_external_aac" path="external/aac" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" revision="10.0" />
   <remove-project name="platform/external/libpng" />
