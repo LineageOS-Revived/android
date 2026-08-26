@@ -38,8 +38,6 @@
   <project name="LineageOS-Revived/android_external_dng_sdk" path="external/dng_sdk" />
   <remove-project name="platform/external/giflib" />
   <project name="LineageOS-Revived/android_external_giflib" path="external/giflib" />
-  <remove-project name="platform/external/libcups" />
-  <project name="LineageOS-Revived/android_external_libcups" path="external/libcups" />
   <remove-project name="platform/external/libpng" />
   <project name="LineageOS-Revived/android_external_libpng" path="external/libpng" />
   <remove-project name="platform/external/pdfium" />
@@ -109,8 +107,6 @@
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project name="LineageOS-Revived/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
 
-  <remove-project name="LineageOS/android_packages_services_BuiltInPrintService" />
-  <project name="LineageOS-Revived/android_packages_services_BuiltInPrintService" path="packages/services/BuiltInPrintService" />
   <remove-project name="LineageOS/android_packages_services_Mms" />
   <project name="LineageOS-Revived/android_packages_services_Mms" path="packages/services/Mms" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
