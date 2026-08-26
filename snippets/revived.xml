@@ -60,8 +60,6 @@
 
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project name="LineageOS-Revived/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
-  <remove-project name="LineageOS/android_packages_apps_Camera2" />
-  <project name="LineageOS-Revived/android_packages_apps_Camera2" path="packages/apps/Camera2" />
   <remove-project name="LineageOS/android_packages_apps_CertInstaller" />
   <project name="LineageOS-Revived/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
