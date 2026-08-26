@@ -36,8 +36,6 @@
   <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" revision="10.0" />
   <remove-project name="platform/external/dng_sdk" />
   <project name="LineageOS-Revived/android_external_dng_sdk" path="external/dng_sdk" />
-  <remove-project name="platform/external/giflib" />
-  <project name="LineageOS-Revived/android_external_giflib" path="external/giflib" />
   <remove-project name="platform/external/libpng" />
   <project name="LineageOS-Revived/android_external_libpng" path="external/libpng" />
   <remove-project name="LineageOS/android_external_skia" />
