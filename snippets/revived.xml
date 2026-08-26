@@ -104,8 +104,6 @@
   <project name="syphyr/android_system_netd-1" path="system/netd" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project name="LineageOS-Revived/android_system_sepolicy" path="system/sepolicy" />
-  <remove-project name="LineageOS/android_external_v8" />
-  <project name="LineageOS-Revived/android_external_v8" path="external/v8" />
   <remove-project name="LineageOS/android_vendor_cm" />
   <project name="LineageOS-Revived/android_vendor_cm" path="vendor/cm" />
 
