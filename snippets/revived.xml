@@ -38,8 +38,6 @@
   <project name="lin14-mGoms/android_external_skia" path="external/skia" remote="codeberg" />
   <remove-project name="LineageOS/android_external_sonivox" />
   <project name="lin14-mGoms/android_external_sonivox" path="external/sonivox" remote="codeberg" />
-  <remove-project name="LineageOS/android_external_tremolo" />
-  <project name="lin14-mGoms/android_external_tremolo" path="external/tremolo" remote="codeberg" />
   <remove-project name="LineageOS/android_external_zlib" />
   <project name="lin14-mGoms/android_external_zlib" path="external/zlib" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_av" />
