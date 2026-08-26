@@ -44,8 +44,6 @@
   <project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" revision="main" />
   <project name="LineageOS/android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" revision="main" />
   <project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" revision="main" />
-  <remove-project name="LineageOS/android_external_cldr" />
-  <project name="LineageOS-Revived/android_external_cldr" path="external/cldr" />
   <remove-project name="platform/external/dng_sdk" />
   <project name="LineageOS-Revived/android_external_dng_sdk" path="external/dng_sdk" />
   <remove-project name="LineageOS/android_external_expat" />
@@ -54,8 +52,6 @@
   <project name="LineageOS-Revived/android_external_freetype" path="external/freetype" />
   <remove-project name="platform/external/giflib" />
   <project name="LineageOS-Revived/android_external_giflib" path="external/giflib" />
-  <remove-project name="LineageOS/android_external_icu" />
-  <project name="LineageOS-Revived/android_external_icu" path="external/icu" />
   <remove-project name="platform/external/libcups" />
   <project name="LineageOS-Revived/android_external_libcups" path="external/libcups" />
   <remove-project name="platform/external/libpng" />
@@ -89,8 +85,6 @@
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <project name="LineageOS-Revived/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
 
-  <remove-project name="LineageOS/android_libcore" />
-  <project name="LineageOS-Revived/android_libcore" path="libcore" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
 
@@ -174,8 +168,6 @@
   <project name="LineageOS-Revived/android_system_netd" path="system/netd" />
   <remove-project name="LineageOS/android_system_nfc" />
   <project name="LineageOS-Revived/android_system_nfc" path="system/nfc" />
-  <remove-project name="LineageOS/android_system_timezone" />
-  <project name="LineageOS-Revived/android_system_timezone" path="system/timezone" />
 
   <remove-project name="platform/tools/apksig" />
   <project name="LineageOS-Revived/android_tools_apksig" path="tools/apksig" />
