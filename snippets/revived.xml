@@ -112,8 +112,6 @@
 
   <remove-project name="LineageOS/android_packages_providers_DownloadProvider" />
   <project name="LineageOS-Revived/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" />
-  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
-  <project name="LineageOS-Revived/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project name="LineageOS-Revived/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" />
 
@@ -140,10 +138,6 @@
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_system_libfmq" />
   <project name="LineageOS-Revived/android_system_libfmq" path="system/libfmq" />
-  <remove-project name="LineageOS/android_system_netd" />
-  <project name="LineageOS-Revived/android_system_netd" path="system/netd" />
-  <remove-project name="LineageOS/android_system_nfc" />
-  <project name="LineageOS-Revived/android_system_nfc" path="system/nfc" />
 
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
