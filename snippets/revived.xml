@@ -45,8 +45,6 @@
   <project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="LineageOS-Revived/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
-  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
-  <project name="LineageOS-Revived/android_frameworks_opt_telephony" path="frameworks/opt/telephony" />
 
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <project name="LineageOS-Revived/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
