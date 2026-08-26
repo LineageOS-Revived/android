@@ -94,6 +94,8 @@
   <project name="LineageOS-Revived/android_packages_apps_Settings" path="packages/apps/Settings" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <project name="lin14-mGoms/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="codeberg" revision="cm-14.1-microG" />
+  <remove-project name="LineageOS/android_packages_apps_TvSettings" />
+  <project name="lin14-mGoms/android_packages_apps_TvSettings" path="packages/apps/TvSettings" remote="codeberg" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
   <remove-project name="LineageOS/android_system_netd" />
