@@ -88,8 +88,6 @@
   <project name="LineageOS-Revived/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <project name="LineageOS-Revived/android_packages_apps_Eleven" path="packages/apps/Eleven" />
-  <remove-project name="LineageOS/android_packages_apps_Email" />
-  <project name="LineageOS-Revived/android_packages_apps_Email" path="packages/apps/Email" />
   <remove-project name="LineageOS/android_packages_apps_Gallery2" />
   <project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
