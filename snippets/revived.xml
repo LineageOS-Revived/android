@@ -112,8 +112,6 @@
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="LineageOS/android_system_core" />
   <project name="LineageOS-Revived/android_system_core" path="system/core" />
-  <remove-project name="LineageOS/android_system_libfmq" />
-  <project name="LineageOS-Revived/android_system_libfmq" path="system/libfmq" />
 
   <remove-project name="LineageOS/android_packages_overlays_Lineage" />
   <project name="LineageOS-Revived/android_vendor_addons" path="vendor/addons" />
