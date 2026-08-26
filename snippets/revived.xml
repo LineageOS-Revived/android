@@ -30,6 +30,8 @@
   <project name="syphyr/android_external_freetype-1" path="external/freetype" revision="lineage-18.1" />
   <remove-project name="platform/external/giflib" />
   <project name="syphyr/android_external_giflib" path="external/giflib" />
+  <remove-project name="LineageOS/android_external_libnfc-nci" />
+  <project name="lin14-mGoms/android_external_libnfc-nci" path="external/libnfc-nci" remote="codeberg" />
   <remove-project name="LineageOS/android_external_libvpx" />
   <project name="syphyr/android_external_libvpx-1" path="external/libvpx" />
   <remove-project name="LineageOS/android_external_libxml2" />
