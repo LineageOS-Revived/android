@@ -56,8 +56,6 @@
   <project name="LineageOS-Revived/android_packages_apps_CertInstaller" path="packages/apps/CertInstaller" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <project name="LineageOS-Revived/android_packages_apps_Contacts" path="packages/apps/Contacts" />
-  <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project name="LineageOS-Revived/android_packages_apps_Dialer" path="packages/apps/Dialer" />
   <remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
   <project name="LineageOS-Revived/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
