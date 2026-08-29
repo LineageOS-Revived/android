@@ -47,6 +47,8 @@
   <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
   <project name="LineageOS-Revived/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
 
+  <remove-project name="LineageOS/android_libcore" />
+  <project name="LineageOS-Revived/android_libcore" path="libcore" />
   <remove-project name="LineageOS/android_lineage-sdk" />
   <project name="LineageOS-Revived/android_lineage-sdk" path="lineage-sdk" />
 
