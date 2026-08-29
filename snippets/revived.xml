@@ -36,6 +36,8 @@
 
   <remove-project name="LineageOS/android_frameworks_base" />
   <project name="LineageOS-Revived/android_frameworks_base" path="frameworks/base" groups="lineage" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project name="LineageOS-Revived/android_frameworks_native" path="frameworks/native" groups="lineage" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="lin18-microG/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="codeberg" revision="lin-18.1-microG" />
 
