@@ -56,7 +56,7 @@
 
 	<!-- Adblock -->
 	<remove-project name="LineageOS/android_build" />
-	<project name="LineageOS-Revived/android_build_make" path="build/make" >
+	<project name="LineageOS-Revived/android_build" path="build/make" >
 	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
 	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
 	  <linkfile src="core" dest="build/core" />
