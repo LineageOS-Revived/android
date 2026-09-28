@@ -11,7 +11,7 @@
 	<project name="LineageOS-UL/android_system_bpf" path="system/bpf" />
 
 	<remove-project name="LineageOS/android_packages_modules_adb" />
-	<project name="LineageOS-UL/android_packages_modules_adb" path="packages/modules/adb" />
+	<project name="LineageOS-Revived/android_packages_modules_adb" path="packages/modules/adb" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="LineageOS-Revived/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
