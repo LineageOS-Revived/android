@@ -28,7 +28,7 @@
   <project name="LineageOS-Revived/android_frameworks_av" path="frameworks/av" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project name="syphyr/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" />
-  <remove-project name="platform/system/ca-certificates" />
+  <remove-project name="LineageOS/android_system_ca-certificates" />
   <project name="LineageOS-Revived/android_system_ca-certificates" path="system/ca-certificates" />
   <remove-project name="LineageOS/cm_platform_sdk" />
   <project name="LineageOS-Revived/cm_platform_sdk" path="vendor/cmsdk" />
