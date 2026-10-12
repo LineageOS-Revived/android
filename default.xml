@@ -270,7 +270,7 @@
   <project path="external/libfuse" name="platform/external/libfuse" groups="pdk" remote="aosp" />
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" remote="aosp" />
+  <project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk" />
   <project path="external/libiio" name="platform/external/libiio" groups="pdk" remote="aosp" />
   <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" groups="pdk" />
   <project path="external/libkmsxx" name="platform/external/libkmsxx" groups="pdk" remote="aosp" />
@@ -822,7 +822,7 @@
   <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs" />
   <project path="packages/apps/Traceur" name="LineageOS/android_packages_apps_Traceur" groups="pdk-fs" />
   <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" />
-  <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp" />
+  <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" groups="pdk" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp" />
   <project path="packages/apps/WallpaperPicker2" name="LineageOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
@@ -868,7 +868,7 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" groups="pdk-fs" remote="aosp" />
   <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="packages/services/BuiltInPrintService" name="LineageOS/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
@@ -957,7 +957,7 @@
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
-  <project path="system/incremental_delivery" name="platform/system/incremental_delivery" groups="pdk" remote="aosp" />
+  <project path="system/incremental_delivery" name="LineageOS/android_system_incremental_delivery" groups="pdk" />
   <project path="system/iorap" name="platform/system/iorap" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" remote="aosp" />
@@ -967,7 +967,7 @@
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp" />
   <project path="system/libprocinfo" name="platform/system/libprocinfo" groups="pdk" remote="aosp" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" remote="aosp" />
-  <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
+  <project path="system/libufdt" name="LineageOS/android_system_libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp" />
   <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" />
   <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp" />
