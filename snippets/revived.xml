@@ -51,7 +51,7 @@
   <remove-project name="LineageOS/android_libcore" />
   <project name="lin14-mGoms/android_libcore" path="libcore" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
-  <project name="syphyr/android_packages_apps_Bluetooth-1" path="packages/apps/Bluetooth" />
+  <project name="LineageOS-Revived/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
   <project name="lin14-mGoms/android_packages_apps_Nfc" path="packages/apps/Nfc" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
@@ -63,7 +63,7 @@
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <project name="lin14-mGoms/android_packages_services_Telephony" path="packages/services/Telephony" remote="codeberg" />
   <remove-project name="LineageOS/android_system_bt" />
-  <project name="syphyr/android_system_bt" path="system/bt" />
+  <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
   <project name="syphyr/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
   <remove-project name="LineageOS/cm_platform_sdk" />
