@@ -95,6 +95,9 @@
 	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
 	<project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" />
 
+	<remove-project name="LineageOS/android_system_ca-certificates" />
+	<project name="LineageOS-Revived/android_system_ca-certificates" path="system/ca-certificates" />
+
 	<!-- Features -->
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="LineageOS-Revived/android_vendor_lineage" path="vendor/lineage" />
