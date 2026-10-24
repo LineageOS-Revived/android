@@ -3,6 +3,9 @@
 	<remove-project name="LineageOS/android" />
 	<project name="LineageOS-Revived/android" path="android" groups="lineage" />
 
+	<remove-project name="LineageOS/android_system_ca-certificates" />
+	<project name="LineageOS-Revived/android_system_ca-certificates" path="system/ca-certificates" />
+
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_system_netd" />
 	<project name="LineageOS-UL/android_system_netd" path="system/netd" />
