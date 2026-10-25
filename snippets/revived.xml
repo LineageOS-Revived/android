@@ -65,7 +65,7 @@
   <remove-project name="LineageOS/android_system_bt" />
   <project name="LineageOS-Revived/android_system_bt" path="system/bt" />
   <remove-project name="platform/system/ca-certificates" />
-  <project name="syphyr/android_system_ca-certificates" path="system/ca-certificates" revision="android12-release" />
+  <project name="LineageOS-Revived/android_system_ca-certificates" path="system/ca-certificates" />
   <remove-project name="LineageOS/cm_platform_sdk" />
   <project name="LineageOS-Revived/cm_platform_sdk" path="vendor/cmsdk" />
 
