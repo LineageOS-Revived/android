@@ -78,19 +78,19 @@
 	<project name="LineageOS-Revived/android_packages_apps_Contacts" path="packages/apps/Contacts" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_apps_Dialer" />
-	<project name="crdroidandroid/android_packages_apps_Dialer" path="packages/apps/Dialer" revision="12.1" groups="lineage" />
+	<project name="LineageOS-Revived/android_packages_apps_Dialer" path="packages/apps/Dialer" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_apps_Messaging" />
-	<project name="crdroidandroid/android_packages_apps_Messaging" path="packages/apps/Messaging" revision="12.1" groups="lineage" />
+	<project name="LineageOS-Revived/android_packages_apps_Messaging" path="packages/apps/Messaging" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_apps_Etar" />
-	<project name="crdroidandroid/android_packages_apps_Etar" path="packages/apps/Etar" revision="12.1" groups="lineage" />
+	<project name="LineageOS-Revived/android_packages_apps_Etar" path="packages/apps/Etar" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_apps_ExactCalculator" />
 	<project name="crdroidandroid/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" revision="12.1" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_apps_DeskClock" />
-	<project name="crdroidandroid/android_packages_apps_DeskClock" path="packages/apps/DeskClock" revision="12.1" groups="lineage" />
+	<project name="LineageOS-Revived/android_packages_apps_DeskClock" path="packages/apps/DeskClock" groups="lineage" />
 
 	<remove-project name="LineageOS/android_packages_apps_Gallery2" />
 	<project name="LineageOS-Revived/android_packages_apps_Gallery2" path="packages/apps/Gallery2" groups="lineage" />
